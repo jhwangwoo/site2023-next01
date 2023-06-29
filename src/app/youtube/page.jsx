@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import ContTitle from "@/components/title/ContTitle";
-import YoutubeCont from "@/components/Youtube/YoutubeCont";
+import YoutubeCont from "@/components/youtube/YoutubeCont";
 // import styles from "./page.module.scss";
 // export const metadata = {
 //   title: "Movie API",
