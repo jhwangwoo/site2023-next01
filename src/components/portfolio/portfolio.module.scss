@@ -1,0 +1,37 @@
+.scientist__list {
+  margin-bottom: 40px;
+  h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .port__desc {
+    display: flex;
+    justify-content: space-between;
+    img {
+      margin-right: 20px;
+    }
+    .scientist__desc__box {
+      padding: 20px;
+      position: relative;
+      .scientist__desc {
+        font-size: 20px;
+        line-height: 1.7;
+        display: block;
+        margin-bottom: 20px;
+      }
+      a {
+        display: inline-block;
+        position: absolute;
+        bottom: 30px;
+        right: 0;
+        padding: 10px 30px;
+        border-radius: 30px;
+        border: 2px solid #2c3a4b;
+        &:hover {
+          background-color: #2c3a4b;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

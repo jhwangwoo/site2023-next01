@@ -1,0 +1,33 @@
+.intro__box {
+  padding-bottom: 80px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../public/assets/images/intro/introbg.png);
+    background-position: center;
+    background-size: cover;
+    opacity: 0.75;
+    z-index: -1;
+  }
+  .intro__box__inner {
+    .intro__box__title {
+      h1 {
+        font-size: 40px;
+        padding-bottom: 40px;
+      }
+    }
+    .intro__box__desc {
+      span {
+        font-size: 20px;
+        line-height: 1.5;
+        word-break: keep-all;
+        color: #000000;
+      }
+    }
+  }
+}
